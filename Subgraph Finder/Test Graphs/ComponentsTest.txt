@@ -1,0 +1,13 @@
+source	target	weight
+A	B	134
+A	C	241
+B	C	86
+B	D	313
+D	E	827
+D	F	43
+E	F	72
+G	H	432
+H	I	777
+I	J	88
+G	J	309
+K	L	1

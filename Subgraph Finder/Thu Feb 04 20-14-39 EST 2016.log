@@ -1,0 +1,1611 @@
+[INFO] GraphIO: Attempting to read graph: /home/scipio/Documents/NetBeansProjects/THESIS/Subgraph Finder/TEST.DAT
+[GRPH] TEST: Added Node: "ONE"
+[GRPH] TEST: Added Node: "FOUR"
+[GRPH] TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] TEST: Added Node: "FIVE"
+[GRPH] TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] TEST: Added Node: "TWO"
+[GRPH] TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] TEST: Added Node: "THREE"
+[GRPH] TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] TEST: Added Node: "SIX"
+[GRPH] TEST: Added Edge: [SIX, ONE]:U
+[GRPH] TEST: Added Edge: [SIX, FOUR]:U
+[INFO] GraphIO: Successfully constructed graph from file.
+[INFO] Processing edu.claflin.finder.logic.Graph object.
+[ALGO] DFTS: Searching Graph: TEST
+[ALGO] DFTS: Setting Node as root: ONE
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[ALGO] DFTS: Setting Node as root: FOUR
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[ALGO] DFTS: Setting Node as root: FIVE
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[ALGO] DFTS: Setting Node as root: TWO
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[ALGO] DFTS: Setting Node as root: THREE
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[ALGO] DFTS: Setting Node as root: SIX
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [DFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "TWO"
+[GRPH] [DFTS] N[SIX]-TEST: Added Node: "THREE"
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [DFTS] N[SIX]-TEST: Added Edge: [THREE, FIVE]:U
+[ALGO] DFTS: Finished Searching Graph. SGs found: 6
+[ALGO] CULL: 6 queued for culling.
+[ALGO] CULL: Comparing graphs 0 and 1.
+[ALGO] CULL: Marked duplicate graph at index 1.
+[ALGO] CULL: Comparing graphs 0 and 2.
+[ALGO] CULL: Marked duplicate graph at index 2.
+[ALGO] CULL: Comparing graphs 0 and 3.
+[ALGO] CULL: Marked duplicate graph at index 3.
+[ALGO] CULL: Comparing graphs 0 and 4.
+[ALGO] CULL: Marked duplicate graph at index 4.
+[ALGO] CULL: Comparing graphs 0 and 5.
+[INFO] CULL: Culled 4 graphs.
+[ALGO] BFTS: Searching Graph: TEST
+[ALGO] BFTS: Setting Node as root: ONE
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[ONE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[ONE]-TEST: Successful addition to conditioned graph.
+[ALGO] BFTS: Setting Node as root: FOUR
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FOUR]-TEST: Successful addition to conditioned graph.
+[ALGO] BFTS: Setting Node as root: FIVE
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[FIVE]-TEST: Added Edge: [THREE, FOUR]:U
+[ALGO] BFTS: Setting Node as root: TWO
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[TWO]-TEST: Successful addition to conditioned graph.
+[ALGO] BFTS: Setting Node as root: THREE
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FOUR"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[THREE]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FOUR]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[THREE]-TEST: Successful addition to conditioned graph.
+[ALGO] BFTS: Setting Node as root: SIX
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "SIX"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "ONE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "FIVE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "TWO"
+[GRPH] [BFTS] N[SIX]-TEST: Added Node: "THREE"
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [SIX, ONE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [ONE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [TWO, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Added Edge: [THREE, FIVE]:U
+[GRPH] [BFTS] N[SIX]-TEST: Successful addition to conditioned graph.
+[ALGO] BFTS: Finished Searching Graph. SGs found: 6
+[ALGO] CULL: 6 queued for culling.
+[ALGO] CULL: Comparing graphs 0 and 1.
+[ALGO] CULL: Marked duplicate graph at index 1.
+[ALGO] CULL: Comparing graphs 0 and 2.
+[ALGO] CULL: Marked duplicate graph at index 2.
+[ALGO] CULL: Comparing graphs 0 and 3.
+[ALGO] CULL: Marked duplicate graph at index 3.
+[ALGO] CULL: Comparing graphs 0 and 4.
+[ALGO] CULL: Marked duplicate graph at index 4.
+[ALGO] CULL: Comparing graphs 0 and 5.
+[INFO] CULL: Culled 4 graphs.
+[ALGO] CULL: 4 queued for culling.
+[ALGO] CULL: Comparing graphs 0 and 1.
+[ALGO] CULL: Comparing graphs 0 and 2.
+[ALGO] CULL: Marked duplicate graph at index 2.
+[ALGO] CULL: Comparing graphs 0 and 3.
+[ALGO] CULL: Comparing graphs 1 and 3.
+[ALGO] CULL: Marked duplicate graph at index 3.
+[INFO] CULL: Culled 2 graphs.
+[INFO] Processed edu.claflin.finder.logic.Graph object.
+[INFO] Global: Set output directory to: /home/scipio/Documents/NetBeansProjects/THESIS/Subgraph Finder/TEST
+[INFO] GraphIO: Attempt to log graph to file: [DFTS] N[ONE]-TEST
+[INFO] GraphIO: Wrote line to graph file: ONE	FOUR	1
+[INFO] GraphIO: Wrote line to graph file: TWO	FOUR	3
+[INFO] GraphIO: Wrote line to graph file: TWO	FIVE	4
+[INFO] GraphIO: Wrote line to graph file: ONE	FIVE	2
+[INFO] GraphIO: Wrote line to graph file: THREE	FIVE	6
+[INFO] GraphIO: Wrote line to graph file: THREE	FOUR	5
+[INFO] GraphIO: Succesfully wrote graph to file: /home/scipio/Documents/NetBeansProjects/THESIS/Subgraph Finder/TEST/[DFTS] N[ONE]-TEST
+[INFO] GraphIO: Attempt to log graph to file: [DFTS] N[SIX]-TEST
+[INFO] GraphIO: Wrote line to graph file: SIX	ONE	7
+[INFO] GraphIO: Wrote line to graph file: ONE	FIVE	2
+[INFO] GraphIO: Wrote line to graph file: TWO	FIVE	4
+[INFO] GraphIO: Wrote line to graph file: THREE	FIVE	6
+[INFO] GraphIO: Succesfully wrote graph to file: /home/scipio/Documents/NetBeansProjects/THESIS/Subgraph Finder/TEST/[DFTS] N[SIX]-TEST
+[INFO] Global: Set output directory to: /home/scipio/Documents/NetBeansProjects/THESIS/Subgraph Finder
