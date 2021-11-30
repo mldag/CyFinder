@@ -1,0 +1,4 @@
+source	target	weight
+4	5	852
+4	20	999
+20	22	136

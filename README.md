@@ -1,2 +1,8 @@
 # CyFinder
-The CyFinder, a Cytoscape plugin, helps find subgraph biomarkers from biological networks such as co-expression networks, protein-protein interaction networks, etc., by applying graph theoretic concepts and community detection algorithms. The plugin provides options to extract subgraphs of different structures, such as cliques, bipartite graphs, and connected components. It is also packaged with community detection algorithms such as Fastgreedy, Edge Be-tweenness, etc., which are not implemented in other Cytoscape plugins. The plugin also provides features to intersect two graphs or a collection of graphs. The users can easily import their biological network of interest in Cytoscape and use CyFinder to investigate important subgraphs of different structures and get insights into biological phenomena.
+This repository contains the implementation of The CyFinder, a Cytoscape plugin, helps find subgraph biomarkers from biological networks. Along with the source code (contained in two project folders), it also contains tutorial, installation
+
+### Software requirements
+- Python version 3.5 or above
+- Pytorch version 0.4.1
+- CUDA version 8 or above
+- Jupyter notebook

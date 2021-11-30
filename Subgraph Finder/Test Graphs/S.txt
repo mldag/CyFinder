@@ -1,0 +1,6 @@
+source	target	weight
+A	B	469
+B	C	193
+D	E	215
+D	C	215
+A	D	954

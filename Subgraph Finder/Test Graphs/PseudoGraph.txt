@@ -1,0 +1,3 @@
+source	target	weight
+A	B	313
+A	A	827

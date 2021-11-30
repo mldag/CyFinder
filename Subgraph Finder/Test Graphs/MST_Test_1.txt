@@ -1,0 +1,13 @@
+source	target	weight
+A	B	1
+A	F	4
+A	G	2
+B	C	10
+B	G	2
+C	D	4
+C	H	6
+D	F	7
+D	H	5
+F	G	3
+F	H	8
+G	H	9
